@@ -1,1 +1,23 @@
 inherit_from: .rubocop_todo.yml
+
+require:
+  - rubocop-rails
+  - rubocop-performance
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable # active les nouvelles règles par défaut
+  TargetRubyVersion: 3.2.2 # version de Ruby utilisée dans l'application
+  Exclude:
+    - 'db/schema.rb'
+    - 'bin/*'
+    - 'node_modules/**/*'
+    - 'config/**/*'
+    - 'vendor/**/*'
+
+Rails:
+  Enabled: true
+Performance:
+  Enabled: true
+RSpec:
+  Enabled: true

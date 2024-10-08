@@ -15,6 +15,7 @@ AllCops:
     - 'node_modules/**/*'
     - 'config/**/*'
     - 'vendor/**/*'
+    - 'db/migrate/*'
 
 Rails:
   Enabled: true

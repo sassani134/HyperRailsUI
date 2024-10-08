@@ -31,3 +31,7 @@ bundle add --group="development ,test" bundler-audit
 bundle add --group="development ,test" ruby_audit
 
 bundle add --group="development ,test" rubocop-rspec_rails
+
+rails active_storage:install
+
+rails action_text:install

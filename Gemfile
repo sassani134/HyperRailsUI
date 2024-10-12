@@ -59,6 +59,7 @@ group :development, :test do
 
   gem 'brakeman'
   gem 'bundler-audit'
+  gem 'factory_bot_rails'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
